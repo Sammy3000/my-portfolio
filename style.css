@@ -24,3 +24,42 @@ body {
 .nav-img {
   margin-right: 1.5rem;
 }
+
+.first-content {
+  height: 37.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(images/header-shapes\ mobile.png);
+}
+
+.greeting {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 52px;
+  font-family: "Poppins", sans-serif;
+  color: #172b4d;
+  margin-left: 1.5rem;
+}
+.info {
+  margin: 0 1.5rem 0 1.5rem;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.connect {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #7f8cff;
+  margin: 0.5rem 0 1rem 1.5rem;
+}
+.social-info {
+  display: block;
+  width: 50%;
+  margin-left: 1.5rem;
+}
