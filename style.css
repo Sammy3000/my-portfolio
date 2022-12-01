@@ -86,23 +86,25 @@ body {
 .social-connect li a {
   padding: 0 0.5rem;
 }
+
 .work {
   background: #e5e5e5;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
 }
+
 .describe {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #ebebff;
   margin: 3rem auto;
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  padding: 16px;
   gap: 12px;
   max-width: 20rem;
 }
+
 .head-name {
   font-family: "poppins", sans-serif;
   font-size: 2rem;
@@ -110,12 +112,14 @@ body {
   line-height: 3rem;
   color: #172b4d;
 }
+
 .tonic-ul {
   display: flex;
 }
+
 .canopy {
   color: #171a1f;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -123,31 +127,34 @@ body {
   text-decoration: none;
   list-style: none;
 }
+
 .tonic-ul li {
   padding: 0 1rem;
   list-style: none;
   color: #7a869a;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
 }
+
 .tonic-p {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
 }
+
 .lang {
   display: flex;
 }
+
 .lang-li {
   list-style: none;
-  padding: 1rem;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -158,6 +165,7 @@ body {
   padding: 4px 12px;
   margin: 0 0.5rem;
 }
+
 .work-btn {
   color: #396df2;
   font-weight: 500;
@@ -231,16 +239,19 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .social-icons {
   display: flex;
   align-items: center;
   list-style: none;
 }
+
 .social-icon {
   list-style: none;
   padding: 0 0.5rem;
   line-height: 4rem;
 }
+
 .heading-tertiary {
   font-size: 30px;
   font-weight: 700;
@@ -248,12 +259,14 @@ body {
   font-family: "Poppins", sans-serif;
   color: #172b4d;
 }
+
 .about-info {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
 }
+
 .heading-secondary {
   font-size: 1rem;
   font-weight: 500;
@@ -263,6 +276,7 @@ body {
   color: #7f8cff;
   margin-top: 1rem;
 }
+
 .btn {
   text-decoration: none;
   color: #396df2;
@@ -275,6 +289,7 @@ body {
   border-radius: 5px;
   line-height: 4rem;
 }
+
 .right-arrow {
   width: 24px;
   height: 24px;
