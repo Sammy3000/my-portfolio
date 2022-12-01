@@ -106,3 +106,7 @@ If you like this project feel free to use it.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank my coding partners and my bootcamp.
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.

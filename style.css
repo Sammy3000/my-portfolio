@@ -22,6 +22,7 @@ body {
   color: #6070ff;
   font-weight: 700;
   font-size: 1.1rem;
+  text-decoration: none;
 }
 
 .nav-img {
@@ -35,6 +36,7 @@ body {
   flex-direction: column;
   justify-content: center;
   background-image: url(images/header-shapes\ mobile.png);
+  background-size: 100%;
 }
 
 .greeting {
@@ -68,4 +70,15 @@ body {
   display: block;
   width: 50%;
   margin-left: 1.5rem;
+}
+.social-connect {
+  display: flex;
+  margin-left: 1.5rem;
+}
+.social-connect li {
+  list-style: none;
+  text-decoration: none;
+}
+.social-connect li a {
+  padding: 0 0.5rem;
 }
