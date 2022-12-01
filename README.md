@@ -18,15 +18,14 @@
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 
-
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [My Portfolio] <a name="about-project"></a>
 
 - This is my Portfolio created using HTML and CSS.They give legitimacy to your work and provide industry professionals with a better understanding of what you can do.
 
-
 ## 🛠 Built With <a name="built-with"></a>
+
 - HTML
 - CSS
 
@@ -37,6 +36,7 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+
 - Git/Github
 - HTML and CSS knowledge
 - VS code or any other equivalent tool.
@@ -94,6 +94,7 @@ Install this project with:
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
@@ -105,4 +106,3 @@ If you like this project feel free to use it.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank my coding partners and my bootcamp.
-
