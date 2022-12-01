@@ -90,7 +90,7 @@ body {
   background: #e5e5e5;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: minmax(40rem, auto);
+  grid-template-rows: repeat(4, 1fr);
 }
 .describe {
   background: #ffffff;
@@ -168,4 +168,114 @@ body {
   background: transparent;
   border-radius: 5px;
   width: 55%;
+}
+
+.section-about {
+  padding: 6rem 3.2rem 3rem 3rem;
+  border-top-right-radius: 80px;
+  z-index: 1000;
+}
+
+.subheader {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.languages-used {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 2rem;
+}
+
+.about-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.language-used {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  gap: 1.6rem;
+  padding: 1.2rem 2rem;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+}
+
+.language-used span {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.subheading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+}
+
+.frameworks-skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem 0;
+  border-bottom: 1px solid #e6e6e6;
+  margin: 0;
+}
+
+.about-text {
+  padding: 9.6rem 0 4.8rem 0;
+  width: 30rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.social-icon {
+  list-style: none;
+  padding: 0 0.5rem;
+  line-height: 4rem;
+}
+.heading-tertiary {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 42px;
+  font-family: "Poppins", sans-serif;
+  color: #172b4d;
+}
+.about-info {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.heading-secondary {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  line-height: 54px;
+  text-transform: uppercase;
+  color: #7f8cff;
+  margin-top: 1rem;
+}
+.btn {
+  text-decoration: none;
+  color: #396df2;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "poppins", sans-serif;
+  border: 1px solid #396df2;
+  padding: 0.7rem 1.5rem;
+  background: transparent;
+  border-radius: 5px;
+  line-height: 4rem;
+}
+.right-arrow {
+  width: 24px;
+  height: 24px;
 }
