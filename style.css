@@ -177,6 +177,7 @@ body {
   border-radius: 5px;
   width: 55%;
 }
+
 .btn {
   text-decoration: none;
   color: #396df2;
@@ -189,14 +190,17 @@ body {
   border-radius: 5px;
   line-height: 4rem;
 }
+
 .btn:hover {
   background: rgb(56, 179, 221);
   color: white;
 }
+
 .btn:active {
   background: blue;
   color: white;
 }
+
 .btn:focus {
   background-color: green;
   color: white;
@@ -206,14 +210,17 @@ body {
   background: rgb(56, 179, 221);
   color: white;
 }
+
 .work-btn:active {
   background: blue;
   color: white;
 }
+
 .work-btn:focus {
   background-color: green;
   color: white;
 }
+
 .section-about {
   padding: 6rem 3.2rem 3rem 3rem;
   border-top-right-radius: 120px;
@@ -256,6 +263,7 @@ body {
   padding: 0 0.5rem;
   line-height: 4rem;
 }
+
 .about-info {
   font-size: 16px;
   line-height: 24px;
@@ -297,6 +305,7 @@ body {
   color: #7f8cff;
   margin-top: 1rem;
 }
+
 .language-used {
   display: flex;
   align-items: center;
@@ -311,6 +320,7 @@ body {
   font-size: 1.5rem;
   font-weight: 500;
 }
+
 .right-arrow {
   width: 24px;
   height: 24px;
