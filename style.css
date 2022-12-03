@@ -224,7 +224,6 @@ body {
 .section-about {
   padding: 6rem 3.2rem 3rem 3rem;
   border-top-right-radius: 120px;
-  z-index: 1000;
 }
 
 .subheader {
@@ -270,24 +269,6 @@ body {
   font-weight: 400;
   font-family: "Poppins", sans-serif;
 }
-
-.subheading {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 3.2rem;
-  list-style: none;
-}
-
-.frameworks-skills {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2.4rem 0;
-  border-bottom: 1px solid #e6e6e6;
-  margin: 0;
-}
-
 .heading-tertiary {
   font-size: 30px;
   font-weight: 700;
@@ -305,23 +286,46 @@ body {
   color: #7f8cff;
   margin-top: 1rem;
 }
-
-.language-used {
+.main-language-ul {
+  position: relative;
+  list-style: none;
+  margin-top: 2rem;
+}
+.main-language-subul {
+  position: absolute;
+  line-height: 4.5rem;
+  margin-top: 1.5rem;
+}
+.main-language-li {
   display: flex;
-  align-items: center;
-  font-size: 1.8rem;
-  gap: 1.6rem;
-  padding: 1.2rem 2rem;
-  background-color: #f7f7f9;
-  border-radius: 8px;
+  justify-content: space-between;
 }
-
-.language-used span {
-  font-size: 1.5rem;
-  font-weight: 500;
+.main-language-ul li {
+  list-style: none;
 }
-
-.right-arrow {
+.arrows {
   width: 24px;
   height: 24px;
+}
+.frameworks {
+  line-height: 3rem;
+  margin-top: 13.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills {
+  line-height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  align-items: center;
+}
+.main-language-subli {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h3 {
+  font-size: 1.5rem;
 }
