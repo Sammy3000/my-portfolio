@@ -269,6 +269,7 @@ body {
   font-weight: 400;
   font-family: "Poppins", sans-serif;
 }
+
 .heading-tertiary {
   font-size: 30px;
   font-weight: 700;
@@ -286,27 +287,33 @@ body {
   color: #7f8cff;
   margin-top: 1rem;
 }
+
 .main-language-ul {
   position: relative;
   list-style: none;
   margin-top: 2rem;
 }
+
 .main-language-subul {
   position: absolute;
   line-height: 4.5rem;
   margin-top: 1.5rem;
 }
+
 .main-language-li {
   display: flex;
   justify-content: space-between;
 }
+
 .main-language-ul li {
   list-style: none;
 }
+
 .arrows {
   width: 24px;
   height: 24px;
 }
+
 .frameworks {
   line-height: 3rem;
   margin-top: 13.5rem;
@@ -314,6 +321,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .skills {
   line-height: 3rem;
   display: flex;
@@ -321,11 +329,13 @@ body {
   margin-top: 2rem;
   align-items: center;
 }
+
 .main-language-subli {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 h3 {
   font-size: 1.5rem;
 }
