@@ -300,6 +300,9 @@ body {
   position: absolute;
   line-height: 4.5rem;
   top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .main-language-li {
@@ -335,7 +338,9 @@ body {
 .main-language-subli {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+}
+.main-language-subli p {
+  margin-left: 1.5rem;
 }
 
 h3 {
@@ -347,6 +352,8 @@ h3 {
   padding: 8rem 1.5rem;
   border-top-left-radius: 120px;
   background: #6070ff;
+  background-image: url(images/header-shapes\ mobile.png);
+  background-size: 100%;
 }
 .form-ul {
   display: flex;
@@ -411,6 +418,11 @@ h3 {
   height: 48px;
   margin-left: 5px;
   color: #6070ff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 .heading {
   font-family: "Poppins", sans-serif;
@@ -420,10 +432,4 @@ h3 {
   line-height: 52px;
   text-align: center;
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
 }
