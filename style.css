@@ -623,4 +623,8 @@ h3 {
   .desk-lang {
     display: none;
   }
+  .desktop-img {
+    display: block;
+    margin: 3rem 1rem 0 0;
+  }
 }
