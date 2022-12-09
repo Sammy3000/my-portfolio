@@ -17,6 +17,10 @@ body {
   background: #fff;
 }
 
+.desktop-nav {
+  display: none;
+}
+
 .logo {
   margin-left: 1.5rem;
   font-family: "Poppins", sans-serif;
@@ -48,6 +52,8 @@ body {
   font-family: "Poppins", sans-serif;
   color: #172b4d;
   margin-left: 1.5rem;
+  display: block;
+  width: 13rem;
 }
 
 .info {
@@ -107,16 +113,27 @@ body {
   max-width: 20rem;
 }
 
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .head-name {
   font-family: "poppins", sans-serif;
   font-size: 2rem;
   font-weight: 700;
   line-height: 3rem;
   color: #172b4d;
+  display: block;
+  width: 11rem;
 }
 
 .tonic-ul {
   display: flex;
+  margin-top: 0.5rem;
+  align-items: flex-start;
+  margin-left: -1rem;
 }
 
 .canopy {
@@ -148,10 +165,12 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
+  margin-top: 1rem;
 }
 
 .lang {
   display: flex;
+  margin-top: 1rem;
 }
 
 .lang-li {
@@ -178,6 +197,7 @@ body {
   background: transparent;
   border-radius: 5px;
   width: 55%;
+  margin-top: 1rem;
 }
 
 .btn {
@@ -211,6 +231,11 @@ body {
 .work-btn:hover {
   background: rgb(56, 179, 221);
   color: white;
+  font-size: 1.5rem;
+  transition-delay: 0.5s;
+  transition-duration: 3s;
+  transition-property: translate, font-size;
+  translate: 20% 0;
 }
 
 .work-btn:active {
@@ -435,6 +460,8 @@ h3 {
 .contact-btn:hover {
   background-color: skyblue;
   color: white;
+  transform: rotateY(360deg);
+  transition: 2s;
 }
 
 .heading {
@@ -445,4 +472,228 @@ h3 {
   line-height: 52px;
   text-align: center;
   color: #fff;
+}
+
+.uber {
+  display: none;
+}
+
+.facebook {
+  display: none;
+}
+
+.desktop-tonic {
+  display: none;
+}
+
+.desktop-post-one {
+  display: none;
+}
+
+.desktop-img {
+  display: none;
+}
+
+/* Properties for larger screens */
+
+@media (min-width: 768px) {
+  .main-nav {
+    width: 100%;
+  }
+
+  .nav-img {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: block;
+    display: flex;
+    padding-right: 7rem;
+  }
+
+  .logo {
+    padding-left: 5rem;
+  }
+
+  .desktop-li {
+    list-style: none;
+    padding: 0 1rem;
+  }
+
+  .desktop-li a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #344563;
+  }
+
+  .desktop-li a:hover {
+    transition-property: font-size, font-color;
+    transition-delay: 0.5s;
+    transition-duration: 2s;
+    font-size: 1.2rem;
+    color: green;
+  }
+
+  .first-content {
+    padding-left: 15rem;
+    border-bottom-left-radius: 100px;
+    background-image: url(images/header.png);
+    background-size: 90%;
+    height: 43rem;
+  }
+
+  .info {
+    width: 45rem;
+  }
+
+  .describe {
+    flex-direction: row;
+    max-width: 70rem;
+    height: 31rem;
+    border: 1px solid #dfe1e6;
+    border-radius: 24px;
+    padding: 24px;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 2rem;
+    align-content: flex-start;
+    justify-content: center;
+  }
+
+  .tonic-p {
+    width: 25rem;
+  }
+
+  .work-btn {
+    margin-top: 2rem;
+  }
+
+  .lang {
+    margin-top: 1rem;
+  }
+
+  .tonic-one {
+    gap: 24px;
+    display: none;
+  }
+
+  .greeting {
+    width: 17rem;
+  }
+
+  .head-name {
+    width: 25rem;
+  }
+
+  .uber {
+    display: block;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .facebook {
+    display: block;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .multi-post-one {
+    display: none;
+  }
+
+  .tonic-two {
+    display: none;
+  }
+
+  .multi-post-two {
+    display: none;
+  }
+
+  .desktop-tonic {
+    display: block;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .desktop-post-one {
+    display: block;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-btn {
+    margin-left: 0;
+  }
+
+  .contact-info {
+    width: 30rem;
+    margin-left: 26rem;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ebebff;
+  }
+
+  .heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .contact {
+    background-image: url(images/contact-form.png);
+    background-size: 100%;
+  }
+
+  .main-language-subli {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-language-subul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .desk-image {
+    display: none;
+  }
+
+  .desk-lang {
+    display: none;
+  }
+
+  .desktop-img {
+    display: block;
+    margin: 3rem 1rem 0 0;
+  }
+
+  .about-info {
+    width: 28rem;
+  }
+
+  .container-one {
+    padding-left: 3rem;
+  }
+
+  .arrows {
+    margin-right: 6rem;
+  }
+
+  .frameworks {
+    display: flex;
+    justify-content: space-between;
+  }
 }
