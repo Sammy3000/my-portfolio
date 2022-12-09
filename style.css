@@ -503,6 +503,7 @@ h3 {
     display: flex;
     padding-right: 7rem;
   }
+
   .logo {
     padding-left: 5rem;
   }
@@ -671,9 +672,11 @@ h3 {
   .container-one {
     padding-left: 3rem;
   }
+
   .arrows {
     margin-right: 6rem;
   }
+
   .frameworks {
     display: flex;
     justify-content: space-between;
