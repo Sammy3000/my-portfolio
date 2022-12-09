@@ -460,6 +460,9 @@ h3 {
 .contact-btn:hover {
   background-color: skyblue;
   color: white;
+  
+  transform:rotateY(360deg);
+  transition:2s;
 }
 
 .heading {
