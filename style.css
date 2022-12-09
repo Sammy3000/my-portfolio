@@ -501,6 +501,10 @@ h3 {
   .desktop-nav {
     display: block;
     display: flex;
+    padding-right: 7rem;
+  }
+  .logo {
+    padding-left: 5rem;
   }
 
   .desktop-li {
@@ -521,7 +525,8 @@ h3 {
     padding-left: 15rem;
     border-bottom-left-radius: 100px;
     background-image: url(images/header.png);
-    background-size: 100%;
+    background-size: 90%;
+    height: 43rem;
   }
 
   .info {
