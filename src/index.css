@@ -8,6 +8,7 @@ body {
   background: #000;
 }
 h1,
+h3,
 h4,
 p,
 a {
@@ -40,4 +41,9 @@ ul {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   transition: 0.3s;
+}
+@media screen and (max-width: 1040px) {
+  body {
+    overflow-x: hidden;
+  }
 }
