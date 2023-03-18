@@ -1,4 +1,5 @@
 import './index.css';
+import { Route, Routes } from 'react-router-dom';
 import Home from './routes/Home';
 import Projects from './routes/Projects ';
 import About from './routes/About';
@@ -6,9 +7,26 @@ import Contact from './routes/Contact';
 
 function App() {
   return (
-    <div>
-      <h3>Hello react</h3>
-    </div>
+    <>
+      <Routes>
+        <Route
+          path="/"
+          element={<Home />}
+        />
+        <Route
+          path="/projects"
+          element={<Projects />}
+        />
+        <Route
+          path="/about"
+          element={<About />}
+        />
+        <Route
+          path="/contact"
+          element={<Contact />}
+        />
+      </Routes>
+    </>
   );
 }
 
