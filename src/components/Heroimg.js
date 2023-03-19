@@ -10,7 +10,7 @@ const Heroimg = () => {
         <img
           className="into-img"
           src={Codingimg}
-          alt="Coding image"
+          alt="Coding pic"
         />
       </div>
       <div className="content">
