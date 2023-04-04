@@ -114,7 +114,7 @@ Test this app by runing:
 
 - GitHub: [@sam](https://github.com/Sammy3000)
 - Twitter: [@towettsam](https://twitter.com/sammy15375658)
-- LinkedIn: [@towettSammy](https://www.linkedin.com/in/towett-sammy-43476024a/)
+- LinkedIn: [@towettSammy](https://www.linkedin.com/in/towettsammy0/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
