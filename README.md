@@ -30,6 +30,11 @@
 
 Simple open portfolio using react
 
+### Screenshots
+
+![](./src/assets/mywebtwo.PNG)
+![](./src/assets/mywebone.PNG)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 - ![React](https://img.shields.io/badge/-React-000000?style=flat&logo=react)
