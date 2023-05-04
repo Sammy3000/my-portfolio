@@ -28,7 +28,7 @@
 
 # 📖 portfolio<a name="about-project"></a>
 
-Simple open portfolio using react
+My portfolio built using react js.
 
 ### Screenshots
 
@@ -46,7 +46,7 @@ Simple open portfolio using react
 To get a local copy up and running, follow these steps.
 
 - Clone the Repo or Download the Zip file or `https://github.com/Sammy3000/my-portfolio.git`
-- cd /rocket-mission-react
+- cd my-portfolio
 - `npm install` To download all the dependancies of the project
 - Use `npm start` to run the app in your browser
 
@@ -55,7 +55,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 - Git/Github
-- React, Redux, HTML,CSS knowledge.
+- React,HTML,CSS knowledge.
 - VS code or any other equivalent tool.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
