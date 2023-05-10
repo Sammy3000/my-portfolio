@@ -28,7 +28,7 @@
 
 # 📖 portfolio<a name="about-project"></a>
 
-My portfolio built using react js.
+My portfolio built using react js. Displays all the projects I have worked one and also my profile as a web developer.
 
 ### Screenshots
 
@@ -145,6 +145,8 @@ Give a ⭐️ if you like this project and share it with your friends.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - Hat tip to code reviewers.
+- Highly appreciate my coding partners.
+- Thanks to Microverse and its staff.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
