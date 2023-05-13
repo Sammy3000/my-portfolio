@@ -55,7 +55,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 - Git/Github
-- React,HTML,CSS knowledge.
+- Javascript,React,HTML,CSS knowledge.
 - VS code or any other equivalent tool.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
