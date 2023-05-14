@@ -8,7 +8,7 @@ const Projects = () => (
     <Navbar />
     <Heroimg2
       heading="PROJECTS."
-      text="Some of my most recent works"
+      text="Some of my most recent projects"
     />
 
     <Footer />
