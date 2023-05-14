@@ -14,7 +14,7 @@ const Heroimg = () => (
     </div>
     <div className="content">
       <p>Hi, I am Sammy Towett</p>
-      <h1>FullStack Developer</h1>
+      <h1>Front-End Developer</h1>
       <div>
         <Link
           to="/projects"

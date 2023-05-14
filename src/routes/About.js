@@ -8,7 +8,7 @@ const About = () => (
     <Navbar />
     <Heroimg2
       heading="ABOUT."
-      text="I'm a friendly full-stack developer"
+      text="I'm a friendly Front-End Developer"
     />
     <Footer />
   </div>

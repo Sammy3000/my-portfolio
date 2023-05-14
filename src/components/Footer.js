@@ -35,8 +35,8 @@ const Footer = () => (
       <div className="right">
         <h3>About me</h3>
         <p>
-          This is me, Sammy. Full-Stack Developer. I like discussing new
-          projects and challenges
+          This is me, Sammy. Front-End Developer. I like discussing new projects
+          and challenges
         </p>
 
         <div className="social">
