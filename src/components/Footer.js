@@ -17,7 +17,7 @@ const Footer = () => (
             {' '}
             <FaPhone
               size={20}
-              style={{ color: '#fff', marginRight: '2rem' }}
+              style={{ color: '#fff', marginRight: '2.1rem' }}
             />
             +254 743793661
           </h3>
@@ -26,7 +26,7 @@ const Footer = () => (
           <h4>
             <FaMailBulk
               size={20}
-              style={{ color: '#fff', marginRight: '2rem' }}
+              style={{ color: '#fff', marginRight: '2.1rem' }}
             />
             towettsammy30@gmail.com
           </h4>
@@ -36,7 +36,7 @@ const Footer = () => (
         <h3>About me</h3>
         <p>
           This is me, Sammy. Front-End Developer. I like discussing new projects
-          and challenges
+          and challenges.
         </p>
 
         <div className="social">
@@ -46,11 +46,11 @@ const Footer = () => (
           />
           <FaTwitter
             size={30}
-            style={{ color: '#fff', marginRight: '1rem' }}
+            style={{ color: '#fff', marginRight: '1.5rem' }}
           />
           <FaLinkedin
             size={30}
-            style={{ color: '#fff', marginRight: '1rem' }}
+            style={{ color: '#fff', marginRight: '1.5rem' }}
           />
         </div>
       </div>
