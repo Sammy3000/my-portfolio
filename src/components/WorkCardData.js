@@ -24,3 +24,5 @@ const projectCardData = [
     source: 'source.com',
   },
 ];
+
+export default projectCardData;
