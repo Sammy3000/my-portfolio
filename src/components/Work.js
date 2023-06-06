@@ -1,5 +1,7 @@
 import './WorkCard.css';
 import React from 'react';
+import WorkCard from './WorkCard';
+import Work
 
 const Work = () => {
   return (
