@@ -6,5 +6,7 @@ const projectCardData = [
     imgsrc: project1,
     heading: 'Bookstore',
     description: 'Bookstore project designed to store books for user.',
+    view: 'url.com',
+    source: 'source.com',
   },
 ];
