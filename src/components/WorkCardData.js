@@ -1,6 +1,7 @@
 import project1 from '../assets/codex.jpg';
 import project2 from '../assets/codex2.jpg';
 import project3 from '../assets/coding.jpg';
+import project4 from '../assets/coffeecode.jpg';
 const WorkCardData = [
   {
     imgsrc: project1,
@@ -24,9 +25,9 @@ const WorkCardData = [
     source: 'source.com',
   },
   {
-    imgsrc: project3,
-    heading: 'Math Magicians',
-    description: 'User can play with math and also get random math quotes',
+    imgsrc: project4,
+    heading: 'Peace Concert',
+    description: 'Project about peace keeping initiative',
     view: 'url.com',
     source: 'source.com',
   },
