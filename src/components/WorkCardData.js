@@ -23,6 +23,13 @@ const WorkCardData = [
     view: 'url.com',
     source: 'source.com',
   },
+  {
+    imgsrc: project3,
+    heading: 'Math Magicians',
+    description: 'User can play with math and also get random math quotes',
+    view: 'url.com',
+    source: 'source.com',
+  },
 ];
 
 export default WorkCardData;
